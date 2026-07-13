@@ -4,7 +4,7 @@ import DashboardHome from './pages/DashboardHome';
 import FoodInventory from './pages/FoodInventory';
 import BrowseFoodItem from './pages/BrowseFoodItem';
 import AddFoodItem from './pages/AddFoodItem';
-import EditFoodItem from './pages/EditFoodItem';
+import EditFoodItem from './pages/EditfoodItem';
 import MealPlanner from './pages/MealPlanner';
 import ExpiryAlerts from './pages/ExpiryAlerts';
 import Settings from './pages/Settings';

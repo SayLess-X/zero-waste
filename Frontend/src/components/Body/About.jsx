@@ -1,6 +1,6 @@
 // src/components/Body/About.jsx
 import { Heart, Eye, Sprout, Handshake } from "lucide-react";
-import heroImage from "../../../../Assets/image gallery/hero_image02.png";
+import heroImage from "../../../public/images/ZeroWaste_MainLogo.png";
 import {
   colors,
   sectionHeadingStyle,
