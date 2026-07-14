@@ -21,5 +21,4 @@ COPY --from=build /app/target/*.jar app.jar
 
 # Render injects PORT at runtime; Spring reads it via server.port=${PORT:8080}
 EXPOSE 8080
-# TEMPORARY DEBUG LINE - remove the echo once DB_URL issue is confirmed fixed
-ENTRYPOINT ["sh", "-c", "echo \"===DB_URL=[$DB_URL]===\" && echo \"===DB_USERNAME=[$DB_USERNAME]===\" && exec java -jar /app/app.jar"]
+ENTRYPOINT ["java", "-jar", "/app/app.jar"]
